@@ -10,8 +10,8 @@ background-position: center;
 background-size: cover;
 }
 
-h1   {color: blue;border: 8px solid red;}
-h2	 {color: green;border: 8px solid red;}
+h1   {color: blue;}
+h2	 {color: green;}
 p    {color: red;}
 	
 
@@ -20,8 +20,8 @@ p    {color: red;}
 <h1 style="text-align:center;"><strong><mark>O que é que eu faço como primeiro JavaScript?</mark></strong></h2>
 
 <h2 style="text-align:center;"><strong><mark>Nada muito grande, claro, mas vamos começar.</mark></strong></h2>
-<img id="myImage" src="http://www.ltecnologia.com.br/blog/wp-content/uploads/2015/02/helloworld.png" style="display:none">
-<p style="text-align:center;"><button type="button" onclick="document.getElementById('myImage').style.display='block'">Turn on the Java</button></p>
+<p><center><img id="myImage" src="http://www.ltecnologia.com.br/blog/wp-content/uploads/2015/02/helloworld.png" style="display:none"></center></p>
+<h3 style="text-align:center;"><button type="button" onclick="document.getElementById('myImage').style.display='block'">Turn on the Java</button></h3>
 
 
 
