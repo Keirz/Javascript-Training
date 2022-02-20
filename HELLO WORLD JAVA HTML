@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html>
 <body>
+<head>
+<style>
+body
+ {
+ background-image:url('https://i.pinimg.com/originals/b4/e3/71/b4e371619042d1e80918d09904e90f7d.gif');
+background-position: center;
+background-size: cover;
+}
 
-<h2>O que é que eu faço como primeiro JavaScript/h2>
+h1   {color: blue;border: 8px solid red;}
+h2	 {color: green;border: 8px solid red;}
+p    {color: red;}
+	
 
-<p>Nada muito grande, claro, mas vamos começar.</p>
+</style>
+</head>
+<h1 style="text-align:center;"><strong><mark>O que é que eu faço como primeiro JavaScript?</mark></strong></h2>
 
-<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+<h2 style="text-align:center;"><strong><mark>Nada muito grande, claro, mas vamos começar.</mark></strong></h2>
+<img id="myImage" src="http://www.ltecnologia.com.br/blog/wp-content/uploads/2015/02/helloworld.png" style="display:none">
+<p style="text-align:center;"><button type="button" onclick="document.getElementById('myImage').style.display='block'">Turn on the Java</button></p>
 
-<img id="myImage" src="http://www.ltecnologia.com.br/blog/wp-content/uploads/2015/02/helloworld.png" style="width:100px">.
-<img id="myImage2" src="https://i.pinimg.com/originals/b4/e3/71/b4e371619042d1e80918d09904e90f7d.gif" style="width:100px">
 
-<button onclick="document.getElementById('myImage2').src='http://www.ltecnologia.com.br/blog/wp-content/uploads/2015/02/helloworld.png'">Turn off the light</button>
 
 </body>
 </html>
