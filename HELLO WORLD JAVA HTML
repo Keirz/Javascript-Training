@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-<body>
 <head>
 <style>
 body
@@ -11,12 +10,14 @@ background-size: cover;
 }
 
 h1   {color: blue;}
-h2	 {color: green;}
+h2   {color: green;}
 p    {color: red;}
 	
 
 </style>
 </head>
+<body>
+
 <h1 style="text-align:center;"><strong><mark>O que é que eu faço como primeiro JavaScript?</mark></strong></h2>
 
 <h2 style="text-align:center;"><strong><mark>Nada muito grande, claro, mas vamos começar.</mark></strong></h2>
